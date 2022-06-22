@@ -1,0 +1,1110 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE TEI PUBLIC 
+	"-//TEI P5//DTD Main Document Type//EN" 
+	"http://www.tei-c.org/release/xml/tei/schema/dtd/tei.dtd"
+        [
+        ]
+>
+
+<TEI
+  xmlns="http://www.tei-c.org/ns/1.0"
+  xml:lang="">
+
+  <teiHeader>
+    
+      <!--
+      	##
+      	## FILE DESCRIPTION
+      	-->
+    
+    <fileDesc>
+      <titleStmt>
+	<title xml:lang="en">Il8n h4crea SITE GLOSSARY</title>
+	<author>Vega Balbás, Rubén
+	  <email>&lt;ruben.vega.balbas@gmail.com&gt;</email>
+	</author>
+      </titleStmt>
+      <publicationStmt>
+	<availability status="restricted">
+	  <p xml:lang="en">This document is a unfinished work-in-process.</p>
+	</availability>
+      </publicationStmt>
+      <notesStmt>
+	<note xml:lang="es">
+	  .
+	</note>
+	<note xml:lang="en">
+	  Every thing here must complain <ptr
+	  target="http://www.iana.org/assignments/language-subtag-registry"/>.
+	</note>
+	<note xml:lang="pt">
+	  .
+	</note>
+      </notesStmt>
+    </fileDesc>
+
+
+    <!--VERSION-->
+    <revisionDesc>
+      <change n="0.1a" when="2009-03-29">
+	<note>Yet inventing...</note>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+
+  <text>   
+    <body>
+      
+      <!--
+      	##
+      	## GENERAL
+      	-->
+
+      <div xml:id="ServerGloss" type="glossary">
+	
+	<!--Following node may be used by applications for generating
+	         installated languages list. If you pretend to extend
+	         it, use your `site.gloss.xml` for ServerGloss
+	         configuration-->
+
+	<list type="gloss" xml:id="LangList">
+	  <item> 
+	    <term xml:id="Language"/>
+	    <gloss xml:lang="en"
+	      target="#Language">English</gloss>
+	    <gloss xml:lang="es"
+	      target="#Language">Español</gloss>
+	    <gloss xml:lang="pt"
+	      target="#Language">Português</gloss>
+	  </item>
+
+	  <item> 
+	    <term xml:id="litLanguage"/>
+	    <gloss xml:lang="en"
+	      target="#litLanguage">Language</gloss>
+	    <gloss xml:lang="es"
+	      target="#litLanguage">Lengua</gloss>
+	    <gloss xml:lang="pt"
+	      target="#litLanguage">Lingua</gloss>
+	  </item>
+	</list>
+
+
+	<!--Here follows the GLOSSARY latu senso-->
+
+
+
+	<list type="gloss" xml:id="LangGloss">
+
+	  <item> 
+	    <term xml:id="Link"/>
+	    <gloss xml:lang="en"
+	      target="#Link">Link</gloss>
+	    <gloss xml:lang="es"
+	      target="#Link">Enlace</gloss>
+	    <gloss xml:lang="pt"
+	      target="#Link">Enlace</gloss>
+	  </item>
+
+	  <item> 
+	    <term xml:id="Comment"/>
+	    <gloss xml:lang="en"
+	      target="#Comment">This file is generated automatically by h4crea v.b.0.1, a GNU XML content manager programed fully in PHP 5 (still in beta development). More info at http://www.h4crea.net.</gloss>
+	    <gloss xml:lang="es"
+	      target="#Comment">Este archivo ha sido generado automáticamente por h4crea v.b.0.1, un gestor de contenidos XML bajo licencia GNU programado en PHP 5 (todavía en desarrollo). Más información en http://www.h4crea.net.</gloss>
+	    <gloss xml:lang="pt"
+	      target="#Comment">Este arquivo foi gerado automáticamente por h4crea v.b.0.1, um gestor com licença GNU de conteudos XML totalmente programado en PHP 5 (ainda en desenvolvimento). Mais informação em http://www.h4crea.net.</gloss>
+	  </item>
+
+	  <!-- Visitors's Book -->
+
+	  <item> 
+	    <term xml:id="Anonymus"/>
+	    <gloss xml:lang="en"
+	      target="#Anonymus">Anonymus User</gloss>
+	    <gloss xml:lang="es"
+	      target="#Anonymus">Usuario anónimo</gloss>
+	    <gloss xml:lang="pt"
+	      target="#Anonymus">Usuário anónimo</gloss>
+	  </item>
+
+	  <item> 
+	    <term xml:id="VisitorsBook"/>
+	    <gloss xml:lang="en"
+	      target="#VisitorsBook">Visitors' Book</gloss>
+	    <gloss xml:lang="es"
+	      target="#VisitorsBook">Libro de Visitas</gloss>
+	    <gloss xml:lang="pt"
+	      target="#VisitorsBook">Livro de Visitantes</gloss>
+	  </item>
+
+	  <item> 
+	    <term xml:id="NoTitle"/>
+	    <gloss xml:lang="en"
+	      target="#NoTitle">Choose a Title for your Message</gloss>
+	    <gloss xml:lang="es"
+	      target="#NoTitle">Elige un título para tu mensaje</gloss>
+	    <gloss xml:lang="pt"
+	      target="#NoTitle">Escolha um título para a sua mensagem</gloss>
+	  </item>
+
+
+	  <item> 
+	    <term xml:id="PersonalData"/>
+	    <gloss xml:lang="en"
+	      target="#PersonalData">Personal Data</gloss>
+	    <gloss xml:lang="es"
+	      target="#PersonalData">Datos Personales</gloss>
+	    <gloss xml:lang="pt"
+	      target="#PersonalData">Dados pessoais</gloss>
+	  </item>
+
+	  <item> 
+	    <term xml:id="VisitorsBookPost"/>
+	    <gloss xml:lang="en"
+	      target="#VisitorsBookPost">Post your Comment at the
+	      Visitors' Book</gloss>
+	    <gloss xml:lang="es"
+	      target="#VisitorsBookPost">Publica tu Comentario en el
+	      Libro de Visitas</gloss>
+	    <gloss xml:lang="pt"
+	      target="#VisitorsBookPost">Publique o seu Comentário no
+	      Livro de Visitantes</gloss>
+	  </item>
+
+
+	  <item> 
+	    <term xml:id="PostSentSuccessfully"/>
+	    <gloss xml:lang="en"
+	      target="#PostSentSuccessfully">Your comment has been
+	      sent. The web administrator will check your message before
+	      publishing it at the Visitors' Book.</gloss>
+	    <gloss xml:lang="es"
+	      target="#PostSentSuccessfully"> Tu comentario ha sido
+	    enviado correctamente. El administrador de la página lo
+	    revisrá anes de publicarlo en el Libro de Visitas.</gloss>
+	    <gloss xml:lang="pt"
+	      target="#PostSentSuccessfully"> O seu Comentário foi
+	      enviado. O administrador do site vai revisá-lo antes da
+	      publicação no Livro de Visitantes.</gloss>
+	  </item>
+
+
+	  <!-- Catalogs -->
+
+	  <item> 
+	    <term xml:id="ImagesCatalog"/>
+	    <gloss xml:lang="en"
+	      target="#ImagesCatalog">Catalog</gloss>
+	    <gloss xml:lang="es"
+	      target="#ImagesCatalog">Catálogo</gloss>
+	    <gloss xml:lang="pt"
+	      target="#ImagesCatalog">Catálogo</gloss>
+	  </item>
+
+
+	  <item>
+	    <term xml:id="thPreview"/>
+	    <gloss xml:lang="en"
+	      target="#thPreview">Preview</gloss>
+	    <gloss xml:lang="es"
+	      target="#thPreview">Vista previa</gloss>
+	    <gloss xml:lang="pt"
+	      target="#thPreview">Vista prévia</gloss>
+	  </item>
+
+	  <item>
+	    <term xml:id="thTitle"/>
+	    <gloss xml:lang="en"
+	      target="#thTitle">Title</gloss>
+	    <gloss xml:lang="es"
+	      target="#thTitle">Título</gloss>
+	    <gloss xml:lang="pt"
+	      target="#thTitle">Título</gloss>
+	  </item>
+
+
+	  <item>
+	    <term xml:id="thImagesNo"/>
+	    <gloss xml:lang="en"
+	      target="#thImagesNo">Images</gloss>
+	    <gloss xml:lang="es"
+	      target="#thImagesNo">Imágenes</gloss>
+	    <gloss xml:lang="pt"
+	      target="#thImagesNo">Imagens</gloss>
+	  </item>
+
+
+	  <item>
+	    <term xml:id="thLastUpdate"/>
+	    <gloss xml:lang="en"
+	      target="#thLastUpdate">Updated</gloss>
+	    <gloss xml:lang="es"
+	      target="#thLastUpdate">Actualizado</gloss>
+	    <gloss xml:lang="pt"
+	      target="#thLastUpdate">Atualizado</gloss>
+	  </item>
+
+
+	  <item>
+	    <term xml:id="thSummary"/>
+	    <gloss xml:lang="en"
+	      target="#thSummary">Summary</gloss>
+	    <gloss xml:lang="es"
+	      target="#thSummary">Resumen</gloss>
+	    <gloss xml:lang="pt"
+	      target="#thSummary">Resumo</gloss>
+	  </item>
+
+
+	  <!-- MySQL -->
+
+	  <item> 
+	    <term xml:id="MySqlNoRowAffected"/>
+	    <gloss xml:lang="en"
+	      target="#MySqlNoRowAffected">Any change was necessary in
+	      the subscription to</gloss>
+	    <gloss xml:lang="es"
+	      target="#MySqlNoRowAffected">No fue necesario realizar
+	      ningún cambio en la suscripción al boletín</gloss>
+	    <gloss xml:lang="pt"
+	      target="#MySqlNoRowAffected">Não foi preciso mudar nada
+	    na suscrição a</gloss>
+	  </item>
+
+	  <item> 
+	    <term xml:id="MySqlConnectionError"/>
+	    <gloss xml:lang="en"
+	      target="#MySqlConnectionError">There is a connection
+	      problem. Sorry, try again later.</gloss>
+	    <gloss xml:lang="es"
+	      target="#MySqlConnectionError">Hay un problema en la
+	      conexión. Inténtalo nuevamente más tarde.</gloss>
+	    <gloss xml:lang="pt"
+	      target="#MySqlConnectionError">Aconteceu um erro na
+	      conexão. Faça uma nova tentativa mais tarde.</gloss>
+	  </item>
+
+
+	  <item> 
+	    <term xml:id="MySqlDataBaseError"/>
+	    <gloss xml:lang="en"
+	      target="#MySqlDataBaseError">There is a data base
+	      problem. Sorry, try again later.</gloss>
+	    <gloss xml:lang="es"
+	      target="#MySqlDataBaseError">Hay un problema en la
+	      base de datos. Inténtalo nuevamente más tarde.</gloss>
+	    <gloss xml:lang="pt"
+	      target="#MySqlDataBaseError">Aconteceu um erro na
+	      base de dados. Faça uma nova tentativa mais tarde.</gloss>
+	  </item>
+
+
+	  <!-- Contact Form  -->
+
+
+	  <item> 
+	    <term xml:id="Contact"/>
+	    <gloss xml:lang="en"
+	      target="#Contact">Contact</gloss>
+	    <gloss xml:lang="es"
+	      target="#Contact">Contacto</gloss>
+	    <gloss xml:lang="pt"
+	      target="#Contact">Contato</gloss>
+	  </item>
+
+
+	  <item> 
+	    <term xml:id="ContactForm"/>
+	    <gloss xml:lang="en"
+	      target="#ContactForm">Web Form</gloss>
+	    <gloss xml:lang="es"
+	      target="#ContactForm">Formulario Web</gloss>
+	    <gloss xml:lang="pt"
+	      target="#ContactForm">Formulário Web</gloss>
+	  </item>
+
+
+	  <item> 
+	    <term xml:id="FullName"/>
+	    <gloss xml:lang="en"
+	      target="#FullName">Your full name</gloss>
+	    <gloss xml:lang="es"
+	      target="#FullName">Tu nombre completo</gloss>
+	    <gloss xml:lang="pt"
+	      target="#FullName">O seu nome completo</gloss>
+	  </item>
+
+
+	  <item> 
+	    <term xml:id="City"/>
+	    <gloss xml:lang="en"
+	      target="#City">City</gloss>
+	    <gloss xml:lang="es"
+	      target="#City">Ciudad</gloss>
+	    <gloss xml:lang="pt"
+	      target="#City">Cidade</gloss>
+	  </item>
+
+
+	  <item> 
+	    <term xml:id="Country"/>
+	    <gloss xml:lang="en"
+	      target="#Country">Country</gloss>
+	    <gloss xml:lang="es"
+	      target="#Country">País</gloss>
+	    <gloss xml:lang="pt"
+	      target="#Country">País</gloss>
+	  </item>
+
+
+	  <item> 
+	    <term xml:id="Company"/>
+	    <gloss xml:lang="en"
+	      target="#Company">The company or institution you belong to</gloss>
+	    <gloss xml:lang="es"
+	      target="#Company">La empresa o institución a la que perteneces</gloss>
+	    <gloss xml:lang="pt"
+	      target="#Company">A companhia o instituição à qual você pertence</gloss>
+	  </item>
+
+
+	  <item> 
+	    <term xml:id="Subject"/>
+	    <gloss xml:lang="en"
+	      target="#Subject">The contact matter</gloss>
+	    <gloss xml:lang="es"
+	      target="#Subject">Asunto de contacto</gloss>
+	    <gloss xml:lang="pt"
+	      target="#Subject">O assunto do contato</gloss>
+	  </item>
+
+
+	  <item> 
+	    <term xml:id="YourMessage"/>
+	    <gloss xml:lang="en"
+	      target="#YourMessage">Your message</gloss>
+	    <gloss xml:lang="es"
+	      target="#YourMessage">Tu mensaje</gloss>
+	    <gloss xml:lang="pt"
+	      target="#YourMessage">A sua mensagem</gloss>
+	  </item>
+
+	  <item> 
+	    <term xml:id="TextMessage"/>
+	    <gloss xml:lang="en"
+	      target="#TextMessage">Message Text</gloss>
+	    <gloss xml:lang="es"
+	      target="#TextMessage">Texto del mensaje</gloss>
+	    <gloss xml:lang="pt"
+	      target="#TextMessage">Texto da mensagem</gloss>
+	  </item>
+
+	  <item> 
+	    <term xml:id="NoMessage"/>
+	    <gloss xml:lang="en"
+	      target="#NoMessage">The message you want to send is empty</gloss>
+	    <gloss xml:lang="es"
+	      target="#NoMessage">El mensaje que quieres enviar está vacío</gloss>
+	    <gloss xml:lang="pt"
+	      target="#NoMessage">A sua mensagem é vazia</gloss>
+	  </item>
+
+
+	  <item>
+	    <term xml:id="Department"/>
+	    <gloss xml:lang="en"
+	      target="#Department">Department you want to contact with</gloss>
+	    <gloss xml:lang="es"
+	      target="#Department">Departamento con el que quieres contactar</gloss>
+	    <gloss xml:lang="pt"
+	      target="#Department">Departamento com o qual gostaria contatar</gloss>
+	  </item>
+
+
+	  <item> 
+	    <term xml:id="EmailSendError"/>
+	    <gloss xml:lang="en"
+	      target="#EmailSendError">There was an error sending your
+	    email. Try it again.</gloss>
+	    <gloss xml:lang="es"
+	      target="#EmailSendError">Hubo un error en el envío de tu
+	    email. Por favor, inténtalo de nuevo.</gloss>
+	    <gloss xml:lang="pt"
+	      target="#EmailSendError">Aconteceu um erro no envio do
+	    seu email. Faça uma nova tentativa.</gloss>
+	  </item>
+
+
+	  <item> 
+	    <term xml:id="EmailSendSuccess"/>
+	    <gloss xml:lang="en"
+	      target="#EmailSendSuccess">Your email was sent successfully</gloss>
+	    <gloss xml:lang="es"
+	      target="#EmailSendSuccess">Tu correo electrónico fue
+	    enviado satisfactoriamente</gloss>
+	    <gloss xml:lang="pt"
+	      target="#EmailSendSuccess">O seu correio eletrônico foi
+	    enviado satisfatóriamente</gloss>
+	  </item>
+
+	  <!-- Subjects and Message text -->
+
+	  <item> 
+	    <term xml:id="SubjectAdvertiseing"/>
+	    <gloss xml:lang="en"
+	      target="#SubjectAdvertiseing">Advertiseing Conditions</gloss>
+	    <gloss xml:lang="es"
+	      target="#SubjectAdvertiseing">Condiciones para la inserción de publicidad</gloss>
+	    <gloss xml:lang="pt"
+	      target="#SubjectAdvertiseing">Condições para a inserção de publicidade</gloss>
+	  </item>
+
+
+	  <item> 
+	    <term xml:id="MessageAdvertiseing"/>
+	    <gloss xml:lang="en"
+	      target="#MessageAdvertiseing">I would like to receive the page transit statics, the banners sizes, the price list and payment conditions. Thank you very much.</gloss>
+	    <gloss xml:lang="es"
+	      target="#MessageAdvertiseing">Me gustaría recibir las estadísticas de tránsito de la página, los tamaños de los banners, la lista de precios y las condiciones de pago. Gracias.</gloss>
+
+	    <gloss xml:lang="pt"
+	      target="#MessageAdvertiseing">Gostaria receber as estadísticas de fluxo da página, o tamanho dos banners, a lista de preços e as condições de pagamento. Muito obrigado.</gloss>
+
+	  </item>
+
+
+	  <item> 
+	    <term xml:id="SubjectBug"/>
+	    <gloss xml:lang="en"
+	      target="#SubjectBug">I've found a bug or and error</gloss>
+	    <gloss xml:lang="es"
+	      target="#SubjectBug">Encontré un fallo o un error</gloss>
+	    <gloss xml:lang="pt"
+	      target="#SubjectBug">Achei uma falha ou um erro</gloss>
+	  </item>
+
+	  <item> 
+	    <term xml:id="MessageBug"/>
+	    <gloss xml:lang="en"
+	      target="#MessageBug">I have foun the following bug or error:</gloss>
+	    <gloss xml:lang="es"
+	      target="#MessageBug">Encontré el siguiente fallo o error:</gloss>
+
+	    <gloss xml:lang="pt"
+	      target="#MessageBug">Achei a seguinte falha ou erro:</gloss>
+
+	  </item>
+
+
+	  <item> 
+	    <term xml:id="SubjectCollaboration"/>
+	    <gloss xml:lang="en"
+	      target="#SubjectCollaboration">Collaboration proposal</gloss>
+	    <gloss xml:lang="es"
+	      target="#SubjectCollaboration">Propuesta de colaboración</gloss>
+	    <gloss xml:lang="pt"
+	      target="#SubjectCollaboration">Proposta de colaboraçãoo</gloss>
+	  </item>
+
+
+
+	  <!-- RSS  -->
+
+
+	  <item> 
+	    <term xml:id="Subscribe"/>
+	    <gloss xml:lang="en"
+	      target="#Subscribe">Subscribe</gloss>
+	    <gloss xml:lang="es"
+	      target="#Subscribe">Subscribirse</gloss>
+	    <gloss xml:lang="pt"
+	      target="#Subscribe">Sindicar-se</gloss>
+	  </item>
+
+
+	  <item> 
+	    <term xml:id="ReadEntries"/>
+	    <gloss xml:lang="en"
+	      target="#ReadEntries">Read Entries</gloss>
+	    <gloss xml:lang="es"
+	      target="#ReadEntries">Leer Entradas</gloss>
+	    <gloss xml:lang="pt"
+	      target="#ReadEntries">Ler Entradas</gloss>
+	  </item>
+
+
+	  <item> 
+	    <term xml:id="WriteEntry"/>
+	    <gloss xml:lang="en"
+	      target="#WriteEntry">Write Entry</gloss>
+	    <gloss xml:lang="es"
+	      target="#WriteEntry">Escribir Entrada</gloss>
+	    <gloss xml:lang="pt"
+	      target="#WriteEntry">Escrever Entrada</gloss>
+	  </item>
+
+
+	  <item> 
+	    <term xml:id="FeedSubscription"/>
+	    <gloss xml:lang="en"
+	      target="#FeedSubscription">Feeds Sindication Channels</gloss>
+	    <gloss xml:lang="es"
+	      target="#FeedSubscription">Canales de Sindicación</gloss>
+	    <gloss xml:lang="pt"
+	      target="#FeedSubscription">Canais de Sindicação</gloss>
+	  </item>	  
+
+	  <item> 
+	    <term xml:id="Title"/>
+	    <gloss xml:lang="en"
+	      target="#Title">Title</gloss>
+	    <gloss xml:lang="es"
+	      target="#Title">Título</gloss>
+	    <gloss xml:lang="pt"
+	      target="#Title">Título</gloss>
+	  </item>	  
+
+
+	  <item> 
+	    <term xml:id="Sindicate"/>
+	    <gloss xml:lang="en"
+	      target="#Sindicate">Sindicate</gloss>
+	    <gloss xml:lang="es"
+	      target="#Sindicate">Sindicarse</gloss>
+	    <gloss xml:lang="pt"
+	      target="#Sindicate">Sidicação</gloss>
+	  </item>	  
+
+
+	  <item> 
+	    <term xml:id="Subtitle"/>
+	    <gloss xml:lang="en"
+	      target="#Subtitle">Subtitle</gloss>
+	    <gloss xml:lang="es"
+	      target="#Subtitle">Subtítulo</gloss>
+	    <gloss xml:lang="pt"
+	      target="#Subtitle">Subtítulo</gloss>
+	  </item>	  
+
+	  <item> 
+	    <term xml:id="Updated"/>
+	    <gloss xml:lang="en"
+	      target="#Updated">Last Update</gloss>
+	    <gloss xml:lang="es"
+	      target="#Updated">Última Actualización</gloss>
+	    <gloss xml:lang="pt"
+	      target="#Updated">Última Actualizção</gloss>
+	  </item>	  
+
+
+	  <!-- Newsletter -->
+
+	  <item> 
+	    <term xml:id="Newsletters"/>
+	    <gloss xml:lang="en"
+	      target="#Newsletters">Newsletters</gloss>
+	    <gloss xml:lang="es"
+	      target="#Newsletters">Newsletters</gloss>
+	    <gloss xml:lang="pt"
+	      target="#Newsletters">Newsletters</gloss>
+	  </item>
+
+
+	  <item> 
+	    <term xml:id="SubscriptionData"/>
+	    <gloss xml:lang="en"
+	      target="#SubscriptionData">Subscription Data</gloss>
+	    <gloss xml:lang="es"
+	      target="#SubscriptionData">Datos de la Suscripción</gloss>
+	    <gloss xml:lang="pt"
+	      target="#SubscriptionData">Dados da Suscrição</gloss>
+	  </item>
+
+
+	  <item> 
+	    <term xml:id="UnsubscriptionData"/>
+	    <gloss xml:lang="en"
+	      target="#UnsubscriptionData">Unsubscription Data</gloss>
+	    <gloss xml:lang="es"
+	      target="#UnsubscriptionData">Datos de la Baja</gloss>
+	    <gloss xml:lang="pt"
+	      target="#UnsubscriptionData">Dados da Baixag</gloss>
+	  </item>
+
+
+	  <item> 
+	    <term xml:id="Subscription"/>
+	    <gloss xml:lang="en"
+	      target="#Subscription">Subscriptions</gloss>
+	    <gloss xml:lang="es"
+	      target="#Subscription">Suscripciones</gloss>
+	    <gloss xml:lang="pt"
+	      target="#Subscription">Suscriçõeso</gloss>
+	  </item>
+
+
+	  <item> 
+	    <term xml:id="Unsubscription"/>
+	    <gloss xml:lang="en"
+	      target="#Unsubscription">Unsubscriptions</gloss>
+	    <gloss xml:lang="es"
+	      target="#Unsubscription">Bajas</gloss>
+	    <gloss xml:lang="pt"
+	      target="#Unsubscription">Baixas</gloss>
+	  </item>
+
+	  <item> 
+	    <term xml:id="Name"/>
+	    <gloss xml:lang="en"
+	      target="#Name">Name</gloss>
+	    <gloss xml:lang="es"
+	      target="#Name">Nombre</gloss>
+	    <gloss xml:lang="pt"
+	      target="#Name">Nome</gloss>
+	  </item>
+
+
+	  <item> 
+	    <term xml:id="Surname"/>
+	    <gloss xml:lang="en"
+	      target="#Surname">Surname</gloss>
+	    <gloss xml:lang="es"
+	      target="#Surname">Apellidos</gloss>
+	    <gloss xml:lang="pt"
+	      target="#Surname">Sobrenome</gloss>
+	  </item>
+
+
+	  <item> 
+	    <term xml:id="Email"/>
+	    <gloss xml:lang="en"
+	      target="#Email">Email</gloss>
+	    <gloss xml:lang="es"
+	      target="#Email">Correo electrónico</gloss>
+	    <gloss xml:lang="pt"
+	      target="#Email">Correo eletrônico</gloss>
+	  </item>
+
+
+	  <item> 
+	    <term xml:id="EmailError"/>
+	    <gloss xml:lang="en"
+	      target="#EmailError">The email is not valid</gloss>
+	    <gloss xml:lang="es"
+	      target="#EmailError">El correo electrónico no es correcto</gloss>
+	    <gloss xml:lang="pt"
+	      target="#EmailError">O correo eletrônico não é certo</gloss>
+	  </item>
+
+
+	  <item> 
+	    <term xml:id="Nationality"/>
+	    <gloss xml:lang="en"
+	      target="#Nationality">Nationality</gloss>
+	    <gloss xml:lang="es"
+	      target="#Nationality">Nacionalidad</gloss>
+	    <gloss xml:lang="pt"
+	      target="#Nationality">Nacionalidade</gloss>
+	  </item>
+
+
+	  <item> 
+	    <term xml:id="PreferedLanguage"/>
+	    <gloss xml:lang="en"
+	      target="#PreferedLanguage">Prefered language</gloss>
+	    <gloss xml:lang="es"
+	      target="#PreferedLanguage">Idioma preferido</gloss>
+	    <gloss xml:lang="pt"
+	      target="#PreferedLanguage">Idioma preferido</gloss>
+	  </item>
+
+
+	  <item> 
+	    <term xml:id="AboutYou"/>
+	    <gloss xml:lang="en"
+	      target="#AboutYou">Tell us something about you</gloss>
+	    <gloss xml:lang="es"
+	      target="#AboutYou">Cuéntanos algo sobre ti</gloss>
+	    <gloss xml:lang="pt"
+	      target="#AboutYou">Gostariamos saber sobre você</gloss>
+	  </item>
+
+
+	  <item>
+	    <term xml:id="SubscribeChooseNewsletter"/>
+	    <gloss xml:lang="en"
+	      target="#SubscribeChooseNewsletter">Choose the newsletter to
+	    subscribe to</gloss>
+	    <gloss xml:lang="es"
+	      target="#SubscribeChooseNewsletter">Elige el boletín al que
+	    deseas suscribirte</gloss>
+	    <gloss xml:lang="pt"
+	      target="#SubscribeChooseNewsletter">Escolha o newsletter</gloss>
+	  </item>
+
+	  <item>
+	    <term xml:id="UnsubscribeChooseNewsletter"/>
+	    <gloss xml:lang="en"
+	      target="#UnsubscribeChooseNewsletter">Choose the newsletter to
+	    unsubscribe from</gloss>
+	    <gloss xml:lang="es"
+	      target="#UnsubscribeChooseNewsletter">Elige el boletín del que
+	    deseas darte de baja</gloss>
+	    <gloss xml:lang="pt"
+	      target="#UnsubscribeChooseNewsletter">Escolha o
+	    newsletter</gloss>
+	  </item>
+
+
+	  <item> 
+	    <term xml:id="NewsletterError"/>
+	    <gloss xml:lang="en"
+	      target="#NewsletterError">Please, select a newsletter to
+	      subscribe to</gloss>
+	    <gloss xml:lang="es"
+	      target="#NewsletterError">Por favor, elige un boletín al
+	      que suscribirte</gloss>
+	    <gloss xml:lang="pt"
+	      target="#NewsletterError">Por gentileza, escolha um
+	      newsletter</gloss>
+	  </item>
+
+
+	  <item> 
+	    <term xml:id="Security"/>
+	    <gloss xml:lang="en"
+	      target="#Security">Captcha</gloss>
+	    <gloss xml:lang="es"
+	      target="#Security">Captcha</gloss>
+	    <gloss xml:lang="pt"
+	      target="#Security">Captcha</gloss>
+	  </item>
+
+
+	  <item> 
+	    <term xml:id="Captcha"/>
+	    <gloss xml:lang="en"
+	      target="#Captcha">For security reasons, type this
+	    operation result</gloss>
+	    <gloss xml:lang="es"
+	      target="#Captcha">Por seguridad, introduce el resultado de</gloss>
+	    <gloss xml:lang="pt"
+	      target="#Captcha">Por seguridade, introduz o resultado de</gloss>
+	  </item>
+
+
+	  <item> 
+	    <term xml:id="CaptchaError"/>
+	    <gloss xml:lang="en"
+	      target="#CaptchaError">The security operation result was
+	    not right</gloss>
+	    <gloss xml:lang="es"
+	      target="#CaptchaError">El resultado de la operación de
+	    seguridad no fue correcto</gloss>
+	    <gloss xml:lang="pt"
+	      target="#CaptchaError">O resultado da operação não é correto</gloss>
+	  </item>
+
+	  <item> 
+	    <term xml:id="SubscriptionUpdated"/>
+	    <gloss xml:lang="en"
+	      target="#SubscriptionUpdated">was already
+	      subscripted. Your data has been updated into the newsletter</gloss>
+	    <gloss xml:lang="es"
+	      target="#SubscriptionUpdated">ya estaba suscrito. Tus
+	    datos han sido actualizados en el boletín</gloss>
+	    <gloss xml:lang="pt"
+	      target="#SubscriptionUpdated">já era suscrito. Seus
+	    dados foram atualizados no newsletter</gloss>
+	  </item>
+
+
+	  <item> 
+	    <term xml:id="EmailNotSubscribed"/>
+	    <gloss xml:lang="en"
+	      target="#EmailNotSubscribed">was not 
+	      subscripted to the newsletter</gloss>
+	    <gloss xml:lang="es"
+	      target="#EmailNotSubscribed">no estaba suscrito 
+	      al boletín</gloss>
+	    <gloss xml:lang="pt"
+	      target="#EmailNotSubscribed">não era suscrito ao newsletter</gloss>
+	  </item>
+
+
+	  <item> 
+	    <term xml:id="EmailUnsubscribed"/>
+	    <gloss xml:lang="en"
+	      target="#EmailUnsubscribed">has been deleted from
+	    subscriptors to</gloss>
+	    <gloss xml:lang="es"
+	      target="#EmailUnsubscribed">ha sido borrado de los
+	    sucriptos a</gloss>
+	    <gloss xml:lang="pt"
+	      target="#EmailUnsubscribed">foi apagado dos suscritos a</gloss>
+	  </item>
+
+
+	  <item> 
+	    <term xml:id="SubscriptionInserted"/>
+	    <gloss xml:lang="en"
+	      target="#SubscriptionInserted">Your subscription was
+	      realized correctly to the newsletter</gloss>
+	    <gloss xml:lang="es"
+	      target="#SubscriptionInserted">Tu suscripción se ha
+	      realizado correctamente en el boletín</gloss>
+	    <gloss xml:lang="pt"
+	      target="#SubscriptionInserted">A sua suscrição foi
+	      realizada corretamente no newsletter</gloss>
+	  </item>
+
+
+	  <!-- -->
+
+	  <item> 
+	    <term xml:id="ByLine"/>
+	    <gloss xml:lang="en"
+	      target="#ByLine">designed and hosted by</gloss>
+	    <gloss xml:lang="es"
+	      target="#ByLine">diseñado y hospedado por</gloss>
+	    <gloss xml:lang="pt"
+	      target="#ByLine">desenhado e hospedado por</gloss>
+	  </item>
+
+
+	  <item> 
+	    <term xml:id="CrumbLine"/>
+	    <gloss xml:lang="en"
+	      target="#CrumbLine">You are here</gloss>
+	    <gloss xml:lang="es"
+	      target="#CrumbLine">Estás aquí</gloss>
+	    <gloss xml:lang="pt"
+	      target="#CrumbLine">Você está aquí</gloss>
+	  </item>
+
+	  <item> 
+	    <term xml:id="Home"/>
+	    <gloss xml:lang="en"
+	      target="#Home">Home</gloss>
+	    <gloss xml:lang="es"
+	      target="#Home">Inicio</gloss>
+	    <gloss xml:lang="pt"
+	      target="#Home">Inicio</gloss>
+	  </item>
+
+	  <item> 
+	    <term xml:id="WithoutTranslation"/>
+	    <gloss xml:lang="en"
+	      target="#WithoutTranslation">There is any english
+	      translation yet for the selected content. If you want to
+	    provide one, please contact us</gloss>
+	    <gloss xml:lang="es"
+	      target="#WithoutTranslation">No existe traducción en
+	    español para el contenido solicitado</gloss>
+	    <gloss xml:lang="pt"
+	      target="#WithoutTranslation">Os conteudos requeridos não
+	      têm tradução ao potuguês</gloss>
+	  </item>
+	  
+	  <item> 
+	    <term xml:id="AdminGreeting"/>
+	    <gloss xml:lang="en"
+	      target="#AdminGreeting">Wellcome!</gloss>
+	    <gloss xml:lang="es"
+	      target="#AdminGreeting">¡Bienvenido!</gloss>
+	    <gloss xml:lang="pt"
+	      target="#AdminGreeting">Bemvindo!</gloss>
+	  </item>
+
+	  <item> 
+	    <term xml:id="UserName"/>
+	    <gloss xml:lang="en"
+	      target="#UserName">User Name</gloss>
+	    <gloss xml:lang="es"
+	      target="#UserName">Nombre de Usuario</gloss>
+	    <gloss xml:lang="pt"
+	      target="#UserName">Nome de Usuario</gloss>
+	  </item>
+
+
+	  <item> 
+	    <term xml:id="UserPassword"/>
+	    <gloss xml:lang="en"
+	      target="#UserPassword">Password</gloss>
+	    <gloss xml:lang="es"
+	      target="#UserPassword">Contraseña</gloss>
+	    <gloss xml:lang="pt"
+	      target="#UserPassword">Senha</gloss>
+	  </item>	
+
+	  <item> 
+	    <term xml:id="RightCheck"/>
+	    <gloss xml:lang="en"
+	      target="#RightCheck">Okay!</gloss>
+	    <gloss xml:lang="es"
+	      target="#RightCheck">Identificación correcta</gloss>
+	    <gloss xml:lang="pt"
+	      target="#RightCheck">Identificação correta</gloss>
+	  </item>
+	
+	  <item> 
+	    <term xml:id="WrongCheck"/>
+	    <gloss xml:lang="en"
+	      target="#WrongCheck">Identification failed</gloss>
+	    <gloss xml:lang="es"
+	      target="#WrongCheck">Identificación erronea</gloss>
+	    <gloss xml:lang="pt"
+	      target="#WrongCheck">Identificação errônea</gloss>
+	  </item>
+	    
+	  <item> 
+	    <term xml:id="LoggedIn"/>
+	    <gloss xml:lang="en"
+	      target="#LoggedIn">User logged</gloss>
+	    <gloss xml:lang="es"
+	      target="#LoggedIn">Usuario conectado</gloss>
+	    <gloss xml:lang="pt"
+	      target="#LoggedIn">Usuário conetado</gloss>
+	  </item>
+	    
+	  <item> 
+	    <term xml:id="LoggedOut"/>
+	    <gloss xml:lang="en"
+	      target="#LoggedOut">User unlogged</gloss>
+	    <gloss xml:lang="es"
+	      target="#LoggedOut">Usuario desconectado</gloss>
+	    <gloss xml:lang="pt"
+	      target="#LoggedOut">Usuário desconetado</gloss>
+	  </item>
+
+	  <item> 
+	    <term xml:id="LangSelect"/>
+	    <gloss xml:lang="en"
+	      target="#LangSelect">Select language</gloss>
+	    <gloss xml:lang="es"
+	      target="#LangSelect">Selecciona idioma</gloss>
+	    <gloss xml:lang="pt"
+	      target="#LangSelect">Selecione lingua</gloss>
+	  </item>
+
+	  <item> 
+	    <term xml:id="FormSubmit"/>
+	    <gloss xml:lang="en"
+	      target="#FormSubmit">Go!</gloss>
+	    <gloss xml:lang="es"
+	      target="#FormSubmit">Enviar</gloss>
+	    <gloss xml:lang="pt"
+	      target="#FormSubmit">Enviar</gloss>
+	  </item>
+
+	  <item> 
+	    <term xml:id="StyleRestored"/>
+	    <gloss xml:lang="en"
+	      target="#StyleRestored">
+	      Initial default Style values have been
+	      restored into the following file: </gloss>
+	    <gloss xml:lang="es"
+	      target="#StyleRestored">
+	      Los valores de estilo iniciales han
+	      sido restaurados en el archivo </gloss>
+	    <gloss xml:lang="pt"
+	      target="#StyleRestored">
+	      O estilo inicial do site foi
+	      recuperado.</gloss>
+
+	  </item>
+
+	  <item> 
+	    <term xml:id="ERRORrestoreStylesDef"/>
+	    <gloss xml:lang="en"
+	      target="#ERRORrestoreStylesDef">The default style was
+	      not restored properly.
+	      </gloss>
+	    <gloss xml:lang="es"
+	      target="#ERRORrestoreStylesDef">El estilo por defecto no
+	    pudo reestablecerse correctamente.
+	      </gloss>
+	    <gloss xml:lang="pt"
+	      target="#ERRORrestoreStylesDef">O estilo inicial não foi
+	      restaurado corretamente</gloss>
+
+	  </item>
+
+
+	  <item> 
+	    <term xml:id="ERRORfileHandlerCREATE"/>
+	    <gloss xml:lang="en"
+	      target="#ERRORfileHandlerCREATE">h4crea::fileHandler
+	      failed creating the file: </gloss>
+	    <gloss xml:lang="es"
+	      target="#ERRORfileHandlerCREATE">h4crea::fileHandler
+	      falló creando el archivo: </gloss>
+	    <gloss xml:lang="pt"
+	      target="#ERRORfileHandlerCREATE">h4crea::fileHandler
+	    falhou criando o arquivo: </gloss>
+
+	  </item>
+
+
+	  <item> 
+	    <term xml:id="ERRORfileHandlerRESET"/>
+	    <gloss xml:lang="en"
+	      target="#ERRORfileHandlerRESET">h4crea::fileHandler
+	      failed reseting the file: </gloss>
+	    <gloss xml:lang="es"
+	      target="#ERRORfileHandlerRESET">h4crea::fileHandler
+	      falló reseteando el archivo: </gloss>
+	    <gloss xml:lang="pt"
+	      target="#ERRORfileHandlerRESET">h4crea::fileHandler
+	    falhou reseteando o arquivo: </gloss>
+
+	  </item>
+
+
+	  <item> 
+	    <term xml:id="ERRORloadStyleNil"/>
+	    <gloss xml:lang="en"
+	      target="#ERRORloadStyleNil">navigation::loadStyle
+	      there is any style file assigned for </gloss>
+	    <gloss xml:lang="es"
+	      target="#ERRORloadStyleNil">navigation::loadStyle
+	      no hay ningún archivo de estilo para </gloss>
+	    <gloss xml:lang="pt"
+	      target="#ERRORloadStyleNil">navigation::loadStyle
+	    não há arqivo de estilo nenhum para </gloss>
+
+	  </item>
+
+
+
+
+	</list>
+      </div>
+
+
+      
+     
+
+    </body>
+
+  </text>
+</TEI>
+<!-- Keep this comment at the end of the file
+Local variables:
+mode: xml
+sgml-omittag:nil
+sgml-shorttag:nil
+sgml-namecase-general:nil
+sgml-general-insert-case:lower
+sgml-minimize-attributes:nil
+sgml-always-quote-attributes:t
+sgml-indent-step:2
+sgml-indent-data:t
+sgml-parent-document:nil
+sgml-exposed-tags:nil
+sgml-local-catalogs:nil
+sgml-local-ecat-files:nil
+End:
+-->
